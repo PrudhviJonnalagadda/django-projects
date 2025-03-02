@@ -1,7 +1,9 @@
 django-admin startproject first_project #creates the project
 python manage.py runserver
+python manage.py makemigrations
 python manage.py migrate
 python manage.py startapp first_app
+python manage.py createsuperuser
 
 Let’s look at what startproject created:
 
